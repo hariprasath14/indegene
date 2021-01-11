@@ -1,0 +1,953 @@
+
+/* universel-starts */
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+}
+/* universel-ends */
+
+/* nav-starts */
+.navbar{
+    display: block;
+    background-color: #ffffff;
+    height: 4.9rem;
+    color: #000;
+    clear:both;
+    padding: 0.7rem 5.2rem;
+
+}
+.logo{
+    vertical-align: middle;
+    width:280px; 
+}
+.nav-logo{
+    float: left;
+}
+.nav-right{
+    padding-top: 0.4rem;
+    float: right;
+}
+.social{
+    border: 1px solid #c7b199;
+    padding: 1.1rem 1.2rem;
+    border-radius: 100%;
+    font-size: 1.7rem;
+    background-color: #c7b199;
+    color: white;
+}
+.fb {
+    border: 1px solid #c7b199;
+    background-color: #c7b199;
+    padding: 1.1rem 1.5rem;
+    border-radius: 100%;
+    font-size: 1.7rem;
+    color: white;
+}
+.menu{
+    color: #8b8b8b;
+    margin-left: 1rem;
+    font-size: 1.63rem;
+    cursor:pointer;
+}
+.nav-content ul{
+    list-style-type: none;
+    padding-inline-start: 5rem;
+}
+.nav-content ul li {
+    padding: 1.3rem;
+    padding-bottom: 2rem;
+    font-size: 1.27rem;
+
+}
+.nav-content ul li a{
+    text-decoration: none;
+    color: black;
+}
+.nav-content ul li a:hover{
+    color: #c7b199;
+}
+.nav-content {
+    position: absolute;
+    background-color: white;
+    width: 100%;
+    display: none;
+    border-top: 2px solid rgb(168 168 168);
+}
+/* nav-ends */
+
+/* header-starts */
+header{
+    background-color: #cccccc;
+}
+.header-info{
+    padding: 263px;
+    text-align: center;
+}
+.header-info h4{
+color: white;
+font-size: 3.5rem;
+font-weight: normal;
+}
+p.p-info{
+ color: white;
+ padding: 1.3rem;
+ font-size: 1.8rem;   
+}
+span.globle{
+border: 1px solid #c7b199;
+background-color: #c7b199;
+padding: 1.3rem;
+color: white;
+margin-right: 3px;
+}
+span.explore{
+    border: 1px solid #ffffff;
+    background-color: #ffffff;
+    padding: 1.3rem 2.2rem;   
+}
+.span-info{
+margin: 1.2rem;
+}
+
+/* header-ends */
+
+/* digital-content-starts */
+
+.savvy{
+    background:linear-gradient(to right,#0000004f,#f9fffd42) ; 
+    padding: 231.4px 0px;
+    vertical-align:top;
+    display: inline-block;
+
+}
+.digital-content{
+    background: url(../images/1393243.png) no-repeat;
+    background-size: cover;
+
+}
+.savvy h3{
+font-size: 2rem;
+font-weight: normal;
+padding:0.6rem 1rem;
+padding-left: 10rem;
+
+}
+.savvy button{
+    margin-left: 10rem;
+    margin-top: 2rem;
+    padding: 1.4rem;
+    font-size: 1.2rem;
+    border: 1px solid white;
+    background-color: white;
+}
+
+.savvy h3.pharama{
+    color: white;
+}    
+.savvy h3:first-child{
+    margin-top: 1.5rem;
+}    
+/* digital-content-ends */
+
+/* services starts */
+
+.services h4{
+    font-weight: normal;
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 3rem;
+}.services p{
+    font-size: 1.6rem;
+    font-style: italic;
+    color: rgb(219 178 184);
+    text-align: center;
+    margin-top: 1rem;
+}
+.service-logo img, .service-logo-r img {
+    width: 155px;
+}
+.sevicess h4{
+    text-align: right;
+    font-size: 1.7rem;
+} .sevicess-r h4{
+    text-align: left;
+    font-size: 1.7rem;
+}
+.sevicess p{
+    text-align: right;
+    font-size: 1.3rem;
+}
+ .sevicess-r p{
+    text-align: left;
+    font-size: 1.3rem;
+}
+.service-type{
+    width: 590px;
+    display: block;
+}
+.sevicess{
+    width: 400px;
+    float: left;
+}
+.service-logo{
+    width: 160px;
+   float: right;
+   padding-top: 38px;
+}
+.services br, .service-type br{
+    clear: both;
+}
+.sevicess-r{
+    width: 400px;
+    float: right;
+}
+.service-logo-r{
+    width: 160px;
+   float: left;
+   padding-top: 38px;
+}
+.left-service{
+    width: 50%;
+float: left;
+}
+.right-service{
+    width: 50%;
+float: right;
+}
+.totalservices{
+    padding:0rem 10rem;
+    margin-top: 2rem;
+}
+.leftcontent{
+    float: right;margin-right: 3rem;
+}
+/* services ends */
+
+/* testimony starts */
+.testimony{
+    margin-top: 5rem;
+    background: url(../images/1686775.jpg) no-repeat;
+    background-position: bottom;
+    background-size: cover;
+    height: 900px;
+    color: #6e6e6e;
+}
+.white{
+color: white;
+}
+.testimony h2{
+    text-align: center;
+    font-weight: normal;
+    font-size: 3.7rem;
+    padding-top: 108px;
+    padding-bottom: 60px;
+    margin-bottom: 5rem;
+}
+.speaches{
+    margin: 4rem;
+    margin-top: 6px;
+
+}
+.dummy{
+    width: 88%;
+    margin: 0px;
+    height: 400px;
+    overflow: hidden;
+}
+.dummycontent{
+    width: 2700px;
+    position: relative;
+    left: 0px;
+}
+.speach{
+    width: 540px;
+    text-align: center;
+    
+}
+.person{
+    font-size: 150px;
+    padding: 1.3rem;
+}
+.speach p{
+    font-size: 1.5rem;
+    padding: 1.3rem;
+}
+.speach h4{
+    font-size: 1.4rem;
+    font-style: italic;
+    padding: 1.3rem;
+}
+.speach, .move-r, .move-l,.dummy{
+    float: left;
+}
+.move-r{
+
+    position: relative;
+    z-index: 1;
+    padding: 200px 40px 40px 40px;
+ }.move-l{
+position: relative;
+z-index: 1;
+    padding:200px 40px 40px 40px;
+ }
+.speaches br, .testimony br{
+    clear: both;
+}
+.move-l .float, .move-r .float{
+    font-size: 2rem;
+}
+/* testimony ends */
+
+
+
+/* blog starts */
+.blogs{
+    width: 450px;
+margin: 0px;
+}
+.blogs img{
+    width: 450px;
+}
+.blogs img{
+    margin-bottom: -10px;
+}
+.blogs .date  {
+    width: 100px;
+    float: left;
+    padding-top: 1rem;
+    background-color: rgb(234 225 221);
+    height: 300px;
+    
+}
+.blogs .date p  {
+font-size: 1.5rem;   
+padding: 0.5rem; 
+text-align: center;
+color: rgb(207 197 187);
+}
+.blogs .date p span {
+font-size: 5rem;  
+color: rgb(173 150 111);  
+
+}
+.blogs .press {
+   width: 340px;
+   float: right;
+}
+
+ .blogs .press h3{
+ padding-left: 1.3rem;
+ padding-top: 2rem; 
+ font-size: 1.3rem;
+}
+ .blogs .press p{
+ padding-left: 1.3rem;
+ padding-top: 1.5rem; 
+ font-size: 1.12rem; 
+ color: rgb(154 154 154);
+}
+.blogs br{
+    clear: both;
+}
+.blogs{
+    float: left;
+margin: 2rem;;
+}
+.blog1{
+    margin-left:11%;
+}
+.all-blogs br{
+    clear: both;;
+}
+.blog h3{
+text-align: center;
+font-size: 2rem;
+margin-top: 50px;
+font-weight: normal;
+
+}
+.blog p{
+    margin-top: 1rem;
+text-align: center;
+font-size: 1.2rem;
+font-style: italic;
+color: rgb(200 192 183);
+
+}
+/* blog ends */
+
+/* footer-starts */
+footer{
+ background-color: #171717;   
+ color: white;
+}
+.footer-info{
+    padding: 160px 140px 120px 140px;
+    text-align: center;
+
+}
+.footer-info h3{
+    color: white;
+    font-size: 3.7rem;
+    font-weight: normal;
+    margin: 2rem;
+}
+.email{
+    width: 558px;
+    padding: 1rem;
+    font-size: 1.3rem;
+    padding-left: 1.5rem;
+    height: 44px;
+    border: 1px solid white;
+    border-top-left-radius: 2px;
+    outline: none;
+    border-bottom-left-radius: 2px;
+}
+.subscribe{
+    border: 1px solid #b69876;
+    background-color: #b69876;
+    color: white;
+    font-size: 1.3rem;
+    padding: 1.6rem;
+    border-top-right-radius: 2px;
+    outline: none;
+    border-bottom-right-radius: 2px;
+}
+footer p{
+    margin: 3.3rem;
+    font-size: 1.1rem;
+}
+footer p span {
+    padding:0rem 1.7rem;
+    border-right: 1px solid white;
+}
+footer p span:last-child {
+    padding:0rem 1.7rem;
+    border-right: 0px solid white;
+}
+
+/* footer-ends */
+
+
+/* media quries >1720px start*/
+@media only screen and (max-width: 1720px) {
+/* header-starts */
+
+    .header-info {
+        padding: 150px;
+        text-align: center;
+    }
+/* header-ends */
+
+/* savvy-starts */
+    .savvy {
+       
+        padding: 132.4px 0px;
+    }
+    .savvy h3 {
+        padding-left: 3rem;
+    }
+    .savvy button {
+        margin-left: 3rem;
+    }
+/* savvy-ends */
+
+
+    /* services starts */
+
+.service-logo img, .service-logo-r img {
+    width: 87px;
+}
+.sevicess h4{
+    font-size: 1.3rem;
+} .sevicess-r h4{
+    font-size: 1.3rem;
+}
+.sevicess p{
+    font-size: 1.1rem;
+}
+ .sevicess-r p{
+    font-size: 1.1rem;
+}
+.service-type{
+    width: 490px;
+}
+.sevicess{
+    width: 360px;
+}
+.service-logo{
+    width: 109px;
+   padding-top: 60px;
+}
+.sevicess-r{
+    width: 360px;
+}
+.service-logo-r{
+    width: 109px;
+   padding-top: 60px;
+}
+.totalservices{
+    margin-top: 0rem;
+}
+/* services ends */
+
+/* testimony starts */
+
+.testimony h2{
+    font-size: 3rem;
+    padding-top: 150px;
+}
+.speach{
+    width: 337px;
+}
+.person{
+    font-size: 103px;
+}
+.speach p{
+    font-size: 1.3rem;
+}
+.speach h4{
+    font-size: 1.3rem;
+    padding: 1rem;
+}
+.move-r{
+    padding: 200px 10px 40px 50px;
+ }
+.move-l{
+    padding:200px 10px 40px 10px;
+ }
+/* testimony ends */
+
+
+/* blog starts */
+.blogs{
+    width: 310px;
+}
+.blogs img{
+    width: 310px;
+}
+.blogs img{
+    margin-bottom: -20px;
+}
+.blogs .date  {
+    padding-top: 0rem;
+    
+}
+.blogs .date p  {
+font-size: 1.3rem;   
+}
+.blogs .date p span {
+font-size: 4rem;
+}
+.blogs .press {
+   width: 206px;
+}
+
+ .blogs .press h3{
+ padding-left: 0rem;
+ padding-top: 1rem; 
+ font-size: 1.3rem;
+ margin-top: 14px;
+}
+ .blogs .press p{
+ padding-left: 1.3rem;
+ padding-top: 0rem; 
+ font-size: 1.1rem;
+}
+
+.blog1{
+    margin-left:6%;
+}
+.blog p{
+    margin-top: 1rem;
+}
+/* blog ends */
+
+/* footer-starts */
+
+   .footer-info{
+       padding: 106px 90px 90px 90px;
+   }
+   .footer-info h3{
+       font-size: 3.2rem;
+       margin: 1rem 1rem 3rem 1rem;
+   }
+   .email{
+       width: 428px;
+       padding: 0.5rem;
+    }
+   .subscribe{
+       font-size: 1.3rem;
+       padding: 1.12rem;
+     }
+   
+   /* footer-ends */
+}
+
+/* media quries >1720px end*/
+@media only screen and (max-width: 1450px){
+.blog1 {
+    margin-left: 16%;
+}
+}
+
+@media only screen and (max-width: 1100px) {
+    .service-type {
+        width: 352px;
+    }
+    }
+
+
+
+/* media quries >410px start*/
+@media only screen and (max-width: 1060px) {
+
+    .blogs {
+        width: 253px;
+    }
+    .blog1 {
+        margin-left: 4%;
+    }
+    .blogs .press {
+        width: 137px;
+    }
+    .blogs .press p {
+        font-size: 1rem;
+    }
+
+.sevicess-r h4, .sevicess-r p{
+    padding-left: 1.5rem;
+    }
+}
+@media only screen and (max-width: 768px) {
+
+.blog3{
+    display: none;
+}
+.blog1 {
+    margin-left: 9%;
+}
+}
+
+@media only screen and (max-width: 660px) {
+
+    .blog3{
+        display: block;
+    }
+    .blog1 {
+        margin-left: 4%;
+    }
+}
+
+/* media quries >576px start*/
+@media only screen and (max-width: 576px) {
+/* nav-starts */
+.navbar{
+    padding: 1.7rem 1.2rem 1rem 1.2rem;
+}
+.logo{
+    width:190px; 
+}
+.social{
+    font-size: 1rem;
+}
+.fb{
+    font-size: 1rem;
+    padding: 1.1rem 1.4rem;
+}
+/* nav-end */
+
+/* header-starts */
+.header-info{
+    padding: 80px;
+}
+.header-info h4{
+    font-size: 2.5rem;
+}
+
+p.p-info{
+     font-size: 1.5rem;   
+}
+span.globle{
+    padding: 1rem;
+}
+span.explore{
+    padding: 1rem 2.2rem;   
+}
+.span-info{
+margin: 1.2rem;
+}
+
+/* header-ends */
+
+/* digital-content-starts */
+
+.savvy {
+    padding: 146.4px 0px 76.4px 0px;
+}.savvy h3 {
+    padding-left: 1rem;
+    color: white;
+}
+.savvy button{
+    margin-left: 1rem;
+    margin-top: 2rem;
+    padding: 1.3rem;
+    font-size: 1.2rem;
+    border: 1px solid white;
+    background-color: white;
+}
+.savvy h3.pharama {
+    color: #e1e1e1;
+    font-size: 2rem;
+    padding-right: 2rem;
+}    
+.savvy h3:first-child{
+    margin-top: 8.5rem;
+}    
+/* digital-content-ends */
+
+
+
+/* services starts */
+.left-service{
+    width: 100%;
+    float: none;
+    margin-right: 9%;
+}
+.service-logo-r {
+    width: 109px;
+    padding-top: 60px;
+    text-align: end;
+}
+.right-service{
+    width: 100%;
+float: none;
+}
+
+.totalservices {
+    padding: 0rem;
+    margin-top: 0
+}
+/* services ends */
+
+/* Tetsimony starts */
+.speach {
+    width: 588px;
+}
+.p1{
+    color: white;
+}
+/* Tetsimony ends */
+
+/* blog starts */
+.blogs{
+    float: none;
+    margin-left: 24%;
+}
+.speaches {
+    margin: -2rem;
+    margin-top: 6px;
+}
+.dummy {
+    width: 88%;
+    margin: 0px;
+    height: 300px;
+    overflow: hidden;
+}
+.speaches {
+    margin: -2rem;
+    margin-top: 6px;
+    width: 570px;
+}
+/* blog ends */
+
+
+/* footer-starts */
+
+.footer-info{
+    padding: 104px 40px 76px 40px;
+}
+.footer-info h3{
+    font-size: 2.2rem;
+    margin: 1rem 1rem 3rem 1rem;
+}
+.email{
+    width: 252px;
+    padding: 0.4rem;
+ }
+.subscribe{
+    font-size: 1.3rem;
+    padding: 1.1rem;
+  }
+
+  footer p span {
+    padding: 0rem 0.7rem;
+    line-height: 38px;
+    border-right: 1px solid white;
+}
+footer p {
+    margin: 2rem;
+    font-size: 1rem;
+}
+/* footer-ends */
+
+}
+
+/* media quries >576px end*/
+
+
+
+/* media quries >425px start*/
+@media only screen and (max-width: 425px) {
+    .navbar {
+        padding: 1.7rem 0.2rem 0rem 0.2rem;
+    }
+    .menu{
+        margin-right: 12px;
+    }
+    .social,.fb{
+        display: none;
+    }
+    .nav-content ul {
+        list-style-type: none;
+        padding-inline-start: 1rem;
+    }
+    .header-info {
+        padding: 40px;
+    }
+    p.p-info {
+        font-size: 1.1rem;
+    }
+    .header-info h4 {
+        font-size: 2rem;
+    }
+    .span-info {
+        margin: 0rem;
+    margin-top: 1rem;
+    }
+    .savvy {
+        padding: 45.4px 0px 36.4px 0px;
+    }.savvy button {
+        margin-left: 1rem;
+        margin-top: 2rem;
+        padding: 1rem;
+        font-size: 1.2rem;
+        border: 1px solid white;
+        background-color: white;
+    }
+    .leftcontent {
+        float: none;
+        margin-right: 3rem;
+    }
+    .speach {
+        width: 438px;
+    }
+    .dummy {
+        width: 71%;
+        margin: 0px;
+        height: 300px;
+        overflow: hidden;
+    }
+    .service-type {
+        width: 370px;
+    }
+.move-l,.move-r{
+    display: none;
+}
+.speaches {
+    margin: -2rem;
+    margin-top: 6px;
+    width: 100%;
+}
+.dummy {
+    width: 100%;
+}
+.speach {
+    width: 438px;
+    margin-left: .8%;
+}.blogs {
+    float: none;
+    margin-left: 13%;
+}
+}
+
+/* media quries >425px end*/
+
+/* media quries >410px start*/
+@media only screen and (max-width: 410px) {
+    .header-info {
+        padding: 36px 13px;
+    }
+    span.explore{
+        display: none;
+    }
+    .service-type {
+        width: 319px;
+    }
+    .right-service{
+        display: none;
+    }
+    .testimony h2 {
+        font-size: 2rem;
+        padding-top: 150px;
+    }
+    .testimony h2 {
+       margin-bottom: 2rem;
+    }
+    .person {
+        font-size: 82px;
+    }
+    .speach p {
+        font-size: 1rem;
+    }
+    .speach h4 {
+        font-size: 1rem;
+        padding: 0rem;
+    }
+    .speaches {
+        margin: 0rem;
+        margin-top: 6px;
+        width: 100%;
+    }
+    .speach {
+        width: 320px;
+        margin-left: 0px;
+    }.testimony {
+        margin-top: 5rem;
+        background: url(../images/1686775.jpg) no-repeat;
+        background-position: bottom;
+        background-size: cover;
+        height: 677px;
+        color: #6e6e6e;
+    }
+    .blogs {
+        float: none;
+        margin-left: 2%;
+    }
+    .footer-info {
+        padding: 104px 10px 76px 10px;
+    }
+    footer p {
+        margin: 0rem;
+        font-size: .87rem;
+    }.sevicess {
+        width: 315px;
+    }
+    
+}
+
+/* media quries >410px end*/
+
+
+@media only screen and (max-width: 375px) {
+    .speach {
+        width: 374px;
+        margin-left: 0px;
+    }
+}
+@media only screen and (max-width: 320px) {
+    .speach {
+        width: 328px;
+        margin-left: 0px;
+    }
+}
